@@ -6,7 +6,6 @@ require (
 	github.com/aiteung/atdb v0.1.7
 	github.com/aiteung/musik v0.0.5
 	github.com/gofiber/fiber/v2 v2.52.4
-	github.com/gofiber/websocket/v2 v2.2.1
 	github.com/whatsauth/whatsauth v0.2.9
 	go.mau.fi/whatsmeow v0.0.0-20240327124018-350073db195c
 )
@@ -20,6 +19,7 @@ require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/fasthttp/websocket v1.5.3 // indirect
 	github.com/go-sql-driver/mysql v1.7.1 // indirect
+	github.com/gofiber/websocket/v2 v2.2.1 // indirect
 	github.com/golang-sql/civil v0.0.0-20220223132316-b832511892a9 // indirect
 	github.com/golang-sql/sqlexp v0.1.0 // indirect
 	github.com/golang/snappy v0.0.4 // indirect

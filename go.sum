@@ -62,8 +62,8 @@ github.com/jcmturner/gofork v1.0.0/go.mod h1:MK8+TM0La+2rjBD4jE12Kj1pCCxK7d2LK/U
 github.com/jcmturner/goidentity/v6 v6.0.1/go.mod h1:X1YW3bgtvwAXju7V3LCIMpY0Gbxyjn/mY9zx4tFonSg=
 github.com/jcmturner/gokrb5/v8 v8.4.2/go.mod h1:sb+Xq/fTY5yktf/VxLsE3wlfPqQjp0aWNYyvBVK62bc=
 github.com/jcmturner/rpc/v2 v2.0.3/go.mod h1:VUJYCIDm3PVOEHw8sgt091/20OJjskO/YJki3ELg/Hc=
-github.com/jul003/Peyeum v0.0.6 h1:rMHBX+xU+T2Ad/7/0m0nPo+OHIRLg2DLPN4nxZRT718=
-github.com/jul003/Peyeum v0.0.6/go.mod h1:DU5fk7XWUAKQrFyqMI6nPJXamd2m6ary2ZIa+YFtL1E=
+github.com/jul003/Peyeum v0.0.8 h1:eXFKo4YS8xH30EzAzK62QQMeYRdSddbpTVPUo3FDkwA=
+github.com/jul003/Peyeum v0.0.8/go.mod h1:DU5fk7XWUAKQrFyqMI6nPJXamd2m6ary2ZIa+YFtL1E=
 github.com/klauspost/compress v1.17.0 h1:Rnbp4K9EjcDuVuHtd0dgA4qNuv9yKDYKK1ulpJwgrqM=
 github.com/klauspost/compress v1.17.0/go.mod h1:ntbaceVETuRiXiv4DpjP66DpAtAGkEQskQzEyD//IeE=
 github.com/kylelemons/godebug v1.1.0/go.mod h1:9/0rRGxNHcop5bhtWyNeEfOS8JIWk580+fNqagV/RAw=

@@ -4,6 +4,8 @@ import (
 	"github.com/jul003/ws-jul2024/controller"
 
 	"github.com/gofiber/fiber/v2"
+
+	"github.com/gofiber/swagger"
 )
 
 func Web(page *fiber.App) {
@@ -29,4 +31,7 @@ func Web(page *fiber.App) {
 
 	page.Delete("/delete/:id", controller.DeletePresensiByID)
 
+	page.Get("/docs/*", swagger.HandlerDefault)
+
+	
 }

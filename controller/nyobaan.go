@@ -3,7 +3,6 @@ package controller
 import (
 	"errors"
 	"fmt"
-	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2"
 	inimodel "github.com/jul003/Peyeum/model"
 	cek "github.com/jul003/Peyeum/module"
@@ -12,13 +11,14 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"net/http"
 )
-
-
-func Homepage(c *fiber.Ctx) error {
-	ipaddr := musik.GetIPaddress()
-	return c.JSON(ipaddr)
-}
-
+// GetPresensi godoc
+// @Summary Get All Data Presensi.
+// @Description Mengambil semua data presensi.
+// @Tags Presensi
+// @Accept json
+// @Produce json
+// @Success 200 {object} Presensi
+// @Router /presensi [get]
 func GetPresensi(c *fiber.Ctx) error {
 	ps := cek.GetAllPresensi(config.Ulbimongoconn, "presensi")
 	return c.JSON(ps)

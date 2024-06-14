@@ -139,7 +139,7 @@ definitions:
         example: "08123456789"
         type: string
     type: object
-host: https://ws-jul2024-bdc7cc35640a.herokuapp.com
+host: ws-jul2024-bdc7cc35640a.herokuapp.com
 info:
   contact:
     email: indra@ulbi.ac.id
